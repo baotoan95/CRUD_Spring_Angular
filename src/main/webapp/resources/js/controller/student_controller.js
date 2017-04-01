@@ -15,6 +15,7 @@ App.controller('StudentController', [
 			};
 
 			self.fetchAll = fetchAll;
+			$scope.fetchAll = self.fetchAll;
 			self.createStudent = createStudent;
 			self.updateStudent = updateStudent;
 			self.deleteStudent = deleteStudent;
@@ -26,8 +27,6 @@ App.controller('StudentController', [
 			if($routeParams.id !== undefined) {
 				self.student = self.viewStudent($routeParams.id);
 			}
-
-			fetchAll();
 
 			function fetchAll() {
 				studentService.fetchAll().then(function(data) {

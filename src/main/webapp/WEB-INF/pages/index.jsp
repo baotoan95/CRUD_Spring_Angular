@@ -13,9 +13,11 @@
 <script lang="javascript"
 	src='<c:url value="/resources/js/app.js"></c:url>'></script>
 <script lang="javascript"
-	src='<c:url value="/resources/js/student_service.js"></c:url>'></script>
+	src='<c:url value="/resources/js/services/student_service.js"></c:url>'></script>
 <script lang="javascript"
-	src='<c:url value="/resources/js/student_controller.js"></c:url>'></script>
+	src='<c:url value="/resources/js/controller/student_controller.js"></c:url>'></script>
+<script lang="javascript"
+	src='<c:url value="/resources/js/directives/students_directive.js"></c:url>'></script>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"

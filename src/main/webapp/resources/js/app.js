@@ -12,7 +12,7 @@ App.config(function($routeProvider) {
 		controller : "StudentController",
 		controllerAs : "studentCtrl"
 	}).when("/students", {
-		templateUrl : "students",
+		template : "<ng-students></ng-students>",
 		controller : "StudentController",
 		controllerAs : "studentCtrl"
 	}).otherwise({
