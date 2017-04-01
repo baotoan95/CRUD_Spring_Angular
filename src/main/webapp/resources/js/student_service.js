@@ -4,7 +4,7 @@ angular.module('myApp').factory('StudentService', ['$http', '$q', function($http
 	var REST_SERVICE_API = "http://localhost:8080/CRUD_Spring_Angular/student";
 	
 	var service = {
-		fechAll: fechAll,
+		fetchAll: fetchAll,
 		createStudent: createStudent,
 		deleteStudent: deleteStudent,
 		updateStudent: updateStudent,
@@ -13,7 +13,7 @@ angular.module('myApp').factory('StudentService', ['$http', '$q', function($http
 	
 	return service;
 	
-	function fechAll() {
+	function fetchAll() {
 		var defer = $q.defer();
 		$http.get(REST_SERVICE_API)
 		.then(

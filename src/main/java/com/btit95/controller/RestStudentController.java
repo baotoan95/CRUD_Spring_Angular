@@ -18,7 +18,7 @@ import com.btit95.services.IStudentService;
 
 @RestController
 @RequestMapping("/student")
-public class StudentController {
+public class RestStudentController {
     @Autowired
     private IStudentService studentService;
     
