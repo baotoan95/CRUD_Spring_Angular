@@ -1,3 +1,11 @@
 .glyphicon {
 	cursor: pointer;
 }
+
+input.ng-invalid {
+	background-color: #f73855;
+}
+
+input.ng-valid {
+	background-color: #16f44d;
+}
